@@ -36,7 +36,7 @@ form.addEventListener('submit', async (event) => {
     // Criar o pedido na base de dados
     const token = loggedUser.token;
 
-    fetch('https://ads-api-kohl.vercel.app/orders', {
+    fetch('http://localhost:7000/orders', {
         method: 'POST', // Método HTTP   
         headers: {
             'Content-Type': 'application/json',

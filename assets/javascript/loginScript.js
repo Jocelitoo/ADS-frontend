@@ -20,7 +20,7 @@ form.addEventListener('submit', async (event) => {
   }
 
   // Login
-  fetch('https://ads-api-kohl.vercel.app/tokens', {
+  fetch('http://localhost:7000/tokens', {
     method: 'POST', // Método HTTP        
     headers: {
       'Content-Type': 'application/json', // Define o tipo de dado enviado

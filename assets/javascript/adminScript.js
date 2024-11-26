@@ -101,7 +101,7 @@ if (loggedUser.token && loggedUser.user) {
     })
 
     // Pegar todos os usuários
-    fetch('https://ads-api-kohl.vercel.app/users', {
+    fetch('http://localhost:7000/users', {
         method: 'GET', // Método HTTP   
         headers: {
             'Content-Type': 'application/json',

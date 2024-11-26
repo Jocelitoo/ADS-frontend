@@ -70,7 +70,7 @@ deleteButton.addEventListener('click', () => {
     if (confirmDelete) {
         const token = loggedUser.token
 
-        fetch('https://ads-api-kohl.vercel.app/users', {
+        fetch('http://localhost:7000/users', {
             method: 'DELETE', // Método HTTP
             headers: {
                 'Content-Type': 'application/json',

@@ -29,7 +29,7 @@ form.addEventListener('submit', (event) => {
     }
 
     // Criar o usuário na base de dados
-    fetch('https://ads-api-kohl.vercel.app/users', {
+    fetch('http://localhost:7000/users', {
         method: 'POST', // Método HTTP
         headers: {
             'Content-Type': 'application/json'

@@ -101,7 +101,7 @@ if (loggedUser.token && loggedUser.user) {
     })
 
     // Pegar os produtos que o usuario logado comprou
-    fetch('https://ads-api-kohl.vercel.app/orders', {
+    fetch('http://localhost:7000/orders', {
         method: 'GET', // Método HTTP   
         headers: {
             'Content-Type': 'application/json',
