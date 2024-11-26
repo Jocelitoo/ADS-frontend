@@ -46,12 +46,10 @@ form.addEventListener('submit', (event) => {
             return response.json(); // Converte a resposta para JSON
         })
         .then(result => {
-            console.log(result)
             alert('Senha atualizada com sucesso');
             location.reload();
         })
         .catch(error => {
-            console.log(error)
             alert(error.message)
             console.error("Erro:", error.message); // Trata erros
         });
@@ -86,13 +84,11 @@ deleteButton.addEventListener('click', () => {
                 return response.json(); // Converte a resposta para JSON
             })
             .then(result => {
-                console.log(result)
                 alert('Conta deletada com sucesso');
                 location.replace('index.html');
                 localStorage.removeItem('loggedUser'); // Remove o loggedUser do localStorage
             })
             .catch(error => {
-                console.log(error)
                 alert(error.message)
                 console.error("Erro:", error.message); // Trata erros
             });
