@@ -11,6 +11,7 @@ Pagina web feita como trabalho final da disciplina de desenv para plataforma web
 - Criação de pedidos 
 - Listagem de pedidos
 - Autenticação de usuários via JWT (Login)
+ ![Tela de login](/assets/images/readme/login "Login")
 
 ## Tecnologias:
 As seguintes ferramentas foram usadas na construção do projeto:
